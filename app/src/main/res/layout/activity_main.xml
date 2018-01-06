@@ -49,7 +49,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
         android:text="@string/hstu_bangla_short_name"
-        android:textSize="40dp" />
-    
+        android:textSize="40sp" />
+
 
 </RelativeLayout>
