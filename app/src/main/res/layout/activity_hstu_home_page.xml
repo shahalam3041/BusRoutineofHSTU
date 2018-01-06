@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.shahalam3041.hstubus.HstuHomePage">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/wazedbuilding" />
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-40dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hstulogo"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-40dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/hstu_full_name_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp" />
+    <TextView
+        android:layout_marginLeft="120dp"
+        android:gravity="center"
+        android:text="@string/hstu_location_enlish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/founded_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp" />
+    <ImageView
+        android:src="@drawable/glance"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+
+</LinearLayout>

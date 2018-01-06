@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bus Routine of HSTU</string>
+    <string name="hstu_bangla_short_name">hstu</string>
+    <string name="hstu_full_name_english">Hajee Mohammad Danesh Science and Technology University</string>
+    <string name="hstu_location_enlish">Basher haT, Dinajpur, Bangladesh</string>
+    <string name="founded_english">Founded: 2002</string>
+</resources>
